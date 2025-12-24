@@ -1,5 +1,5 @@
-# robots.txt para LotoHN.com
-# Resultados de Loto Honduras
+# robots.txt para resultadosdeloto.com
+# Resultados de Loto Honduras - Sitio Informativo NO Oficial
 
 # Permitir acceso a todos los motores de búsqueda
 User-agent: *
@@ -27,6 +27,8 @@ Disallow: /*.json$
 Disallow: /node_modules/
 Disallow: /.git/
 Disallow: /.github/
+Disallow: /backup/
+Disallow: /temp/
 
 # Motores de búsqueda específicos
 
@@ -51,7 +53,7 @@ User-agent: Yandex
 Allow: /
 
 # Sitemap location
-Sitemap: https://lotohn.com/sitemap.xml
+Sitemap: https://resultadosdeloto.com/sitemap.xml
 
 # Crawl-delay (opcional - para ser amable con los servidores)
 # Crawl-delay: 1
